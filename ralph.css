@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar {
+  background-color: #dc1e2a;
+}
+.menu-bar {
+  background-color: #dc1e2a;
+  text-align: center;
+}
+.menu-bar ul {
+  display: inline-flex;
+  list-style: none;
+  color: white;
+}
+.menu-bar ul li {
+  width: 150px;
+  margin: 0px;
+  padding: 10px;
+  margin-left: 20px;
+}
+.menu-bar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.menu-bar ul li:hover {
+  background: #e9bc0a;
+  border-radius: 2px;
+}
+.sub-menu-1 {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: #dc1e2a;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted white;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+  color: #e9bc0a;
+}
+.sub-menu-2 {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-2 {
+  display: block;
+  position: absolute;
+  background: #dc1e2a;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted white;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li a:hover {
+  color: #e9bc0a;
+}
+.sub-menu-3 {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-3 {
+  display: block;
+  position: absolute;
+  background: #dc1e2a;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-3 ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-3 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted white;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-3 ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-3 ul li a:hover {
+  color: #e9bc0a;
+}
+.sub-menu-4 {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-4 {
+  display: block;
+  position: absolute;
+  background: #dc1e2a;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-4 ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-4 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted white;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-4 ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-4 ul li a:hover {
+  color: #e9bc0a;
+}
+.sub-menu-5 {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-5 {
+  display: block;
+  position: absolute;
+  background: #dc1e2a;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-5 ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-5 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted white;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-5 ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-5 ul li a:hover {
+  color: #e9bc0a;
+}
+.sub-menu-6 {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-6 {
+  display: block;
+  position: absolute;
+  background: #dc1e2a;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-6 ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-6 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted white;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-6 ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-6 ul li a:hover {
+  color: #e9bc0a;
+}
+.sub-menu-7 {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-7 {
+  display: block;
+  position: absolute;
+  background: #dc1e2a;
+  margin-top: 15px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-7 ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-7 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted white;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-7 ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-7 ul li a:hover {
+  color: #e9bc0a;
+}

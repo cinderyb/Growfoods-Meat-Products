@@ -1,0 +1,21 @@
+body{
+  font-family: 'Varela Round', sans-serif;
+}
+
+.top-container{
+  padding: 2% 2% 0 2%;
+}
+
+.official-logo{
+  margin-right: 5%;
+}
+
+.navbar-brand{
+  font-family: 'Varela Round', sans-serif;
+  font-size: large;
+  font-weight: bold;
+}
+
+button{
+    font-family: 'Varela Round', sans-serif;
+}

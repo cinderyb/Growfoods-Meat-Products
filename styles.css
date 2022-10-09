@@ -13,9 +13,32 @@ body{
 .navbar-brand{
   font-family: 'Varela Round', sans-serif;
   font-size: large;
-  font-weight: bold;
+  font-weight: bolder;
+}
+
+.navbar{
+  background-color: #ffff;
 }
 
 button{
     font-family: 'Varela Round', sans-serif;
+}
+
+.pork-items{
+  padding: 2% 3%;
+  margin: 5px;
+}
+
+.pork-items-section{
+  padding: 5%;
+  font-family: 'Varela Round', sans-serif;
+  font-size: large;
+  font-weight: bolder;
+    background-color: #faae16;
+}
+
+.pork-items-section h2{
+  color: #e11e2c;
+  margin: auto;
+
 }

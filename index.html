@@ -7,26 +7,174 @@
   <link rel="icon" href="images/10 Growfoods Badge logo.ico">
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-<div class="top-container">
-  <nav class="navbar" style="background-color: #fffffff;">
-  <div class="container-fluid">
-    <img src="images/Official Logo.png" alt="Logo" width="10%" class="official-logo d-inline-block align-text-top">
-    <a class="navbar-brand">
-      <span class="navbar-brand mb-0 h1 fs-2">Pork Cuts</span>
-      </a>
-    <form class="d-flex" role="search">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-danger" type="submit">Search</button>
-    </form>
+
+  <!-- navbar -->
+  <div class="top-container">
+    <nav class="navbar">
+      <div class="container-fluid">
+        <img src="images/Official Logo.png" alt="Logo" width="10%" class="official-logo d-inline-block align-text-top">
+        <a class="navbar-brand" href="">Pork Cuts</a>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-danger" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
   </div>
-</nav>
-</div>
+
+  <!-- cards -->
+  <div class="pork-items-section">
+    <div class="row">
+
+      <div class="pork-items col-lg-3 col-md-4">
+        <div class="card">
+          <div class="card-header">
+            Pork Belly
+          </div>
+          <img src="images/pork/pork belly.png" alt="Pork belly">
+          <div class="card-body">
+            <p>Variants:</p>
+            <p>Bone-in, skin-on | Boneless, skinless | Bone-in, skinless</p>
+            <h2>P295/kg</h2>
+            <div class="d-grid gap-2">
+              <button type="button" class="btn btn-lg btn-danger">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pork-items col-lg-3 col-md-4">
+        <div class="card">
+          <div class="card-header">
+            Pork Jowls
+          </div>
+          <img src="images/pork/pork jowl.png" alt="Pork jowl">
+          <div class="card-body">
+            <p>Cheek part of pork</p>
+            <p>Has skin, fat, and a little meat. Great for smoking and deep frying!</p>
+            <h2>P210/kg</h2>
+            <div class="d-grid gap-2">
+              <button type="button" class="btn btn-lg btn-danger">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pork-items col-lg-3 col-md-4">
+        <div class="card">
+          <div class="card-header">
+            Pork Chop
+          </div>
+          <img src="images/pork/pork chop.png" alt="Pork chop">
+          <div class="card-body">
+            <p>Variants:</p>
+            <p>Bone-in, skin-on | Boneless, skinless | Bone-in, skinless</p>
+            <h2>P225/kg</h2>
+            <div class="d-grid gap-2">
+              <button type="button" class="btn btn-lg btn-danger">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pork-items col-lg-3 col-md-4">
+        <div class="card">
+          <div class="card-header">
+            Pork Ham Leg
+          </div>
+          <img src="images/pork/ham leg.png" alt="Ham leg">
+          <div class="card-body">
+            <p>The meaty hamstring of the pork. Also known as "pigue"</p>
+            <p>Bone-in, skin-on</p>
+            <h2>P200/kg</h2>
+            <div class="d-grid gap-2">
+              <button type="button" class="btn btn-lg btn-danger">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pork-items col-lg-3 col-md-4">
+        <div class="card">
+          <div class="card-header">
+            Pork Samgyupsal
+          </div>
+          <img src="images/pork/pork samg.png" alt="Pork samgyupsal">
+          <div class="card-body">
+            <p>Bacon sliced pork belly</p>
+            <p>Perfect for your Samgyupsal date nights!</p>
+            <h2>P200/500g</h2>
+            <div class="d-grid gap-2">
+              <button type="button" class="btn btn-lg btn-danger">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pork-items col-lg-3 col-md-4">
+        <div class="card">
+          <div class="card-header">
+            Pata
+          </div>
+          <img src="images/pork/pata.png" alt="Ham leg">
+          <div class="card-body">
+            <p>Variants:</p>
+            <p>Pata hock, pata front</p>
+            <p>For crispy pata, and other dishes</p>
+            <h2>P185/kg</h2>
+            <div class="d-grid gap-2">
+              <button type="button" class="btn btn-lg btn-danger">Add to cart</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- Features -->
+
+
+    <div id="growfoodsFeatures" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <img class="feature-images" src="images/quality.png" alt="quality">
+          <h2 class="features-text">Guaranteed quality meats. We offer replacement for orders that do not meet your quality standards.</h2>
+        </div>
+
+        <div class="carousel-item">
+          <img class="feature-images" src="images/delivery.png" alt="delivery">
+          <h2 class="features-text">We deliver on the same day to ensure the quality of your meat.</h2>
+        </div>
+
+        <div class="carousel-item">
+          <img class="feature-images" src="images/online-payment.png" alt="online-payment">
+          <h2 class="features-text">We offer multiple channels for payments, including COD.</h2>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#growfoodsFeatures" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#growfoodsFeatures" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
 
 </body>
 

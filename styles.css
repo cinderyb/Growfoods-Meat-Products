@@ -12,10 +12,57 @@ body{
 
 .navbar-brand{
   font-family: 'Varela Round', sans-serif;
-  font-size: large;
-  font-weight: bold;
+  font-size: 5rem;
+  font-weight: bolder;
+  color: #e11e2c;
+}
+
+.navbar{
+  background-color: #ffff;
 }
 
 button{
     font-family: 'Varela Round', sans-serif;
+}
+
+.pork-items{
+  margin-bottom: 2%;
+}
+
+.pork-items-section{
+  padding: 2%;
+  font-family: 'Varela Round', sans-serif;
+  font-size: large;
+  font-weight: bolder;
+  background-color: #faae16;
+  margin:auto;
+}
+
+.pork-items-section h2{
+  color: #e11e2c;
+  margin: auto;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.card-header{
+  text-align: center;
+  font-size: 2rem;
+}
+
+#growfoodsFeatures{
+  background-color: #1d4f36;
+  font-family: 'Varela Round', sans-serif;
+  font-size: large;
+  font-weight: bolder;
+  text-align: center;
+  padding: 2% 3%;
+}
+
+.feature-images{
+  margin: 2%;
+}
+
+.features-text{
+  color:#fff;
 }

@@ -2,15 +2,31 @@
 <html lang="en">
   <head>
     <title>Growfoods-Beef Cuts</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="ralph.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </head>
   <body>
-    <div class="navbar">
-      <div class="logo">
-        <a href="#"> <img src="redlogo.png" /></a>
-      </div>
-    </div>
     <div class="menu-bar">
+      <div class="row">
+        <div class="col-sm-1">
+          <div class="logo">
+            <a href="#"> <img src="redlogo.png" /></a>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="container">
+            <form>
+              <input type="text" placeholder="What are you looking for?" />
+              <button type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
       <ul>
         <li>
           <a href="#">Premium Meats</a>
@@ -104,5 +120,48 @@
         </li>
       </ul>
     </div>
+
+    <section class="items">
+      <div class="item">
+        <img src="Groundbeef.jpg" />
+        <h4>Ground Beef</h4>
+        <button>Add to cart</button>
+      </div>
+      <div class="item">
+        <img src="Beefsamg.jpg" />
+        <h4>Beef Samg</h4>
+        <button>Add to cart</button>
+      </div>
+      <div class="item">
+        <img src="Tapaslice.jpg" />
+        <h4>Tapa Slice</h4>
+        <button>Add to cart</button>
+      </div>
+      <div class="item">
+        <img src="Calderetacut.jpg" />
+        <h4>Caldereta Cut</h4>
+        <button>Add to cart</button>
+      </div>
+      <div class="item">
+        <img src="Beefbrisket.jpg" />
+        <h4>Beef Brisket</h4>
+        <button>Add to cart</button>
+      </div>
+      <div class="item">
+        <img src="shortplate.jpg" />
+        <h4>Short Plate</h4>
+        <button>Add to cart</button>
+      </div>
+      <div class="item">
+        <img src="bulalocut.jpg" />
+        <h4>Bulalo Cut</h4>
+        <button>Add to cart</button>
+      </div>
+      <div class="item">
+        <img src="Beeftripe.jpg" />
+        <h4>Beef Tripe</h4>
+        <button>Add to cart</button>
+      </div>
+    </section>
   </body>
 </html>

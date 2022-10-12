@@ -1,0 +1,316 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu-bar {
+  background-color: #dc1e2a;
+  text-align: center;
+}
+.logo {
+  padding-top: 10px;
+}
+.container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 30px;
+  width: 100%;
+  background: #dc1e2a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form {
+  background: white;
+  width: 600px;
+  height: 40px;
+  display: flex;
+}
+form input {
+  font-size: large;
+  flex: 1;
+  padding-left: 10px;
+  border: none;
+  outline: none;
+}
+form button {
+  font-size: 15px;
+  background: #e9bc0a;
+  padding: 10px 50px;
+  border: none;
+  outline: none;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.menu-bar ul {
+  font-size: 16px;
+  display: inline-flex;
+  list-style: none;
+  color: white;
+}
+.menu-bar ul li {
+  width: 150px;
+  margin: 0px;
+  padding: 10px;
+  margin-left: 20px;
+}
+.menu-bar ul li a {
+  text-decoration: none;
+  color: white;
+}
+.menu-bar ul li:hover {
+  background: #e9bc0a;
+  border-radius: 2px;
+}
+.sub-menu-1 {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: #dc1e2a;
+  margin-top: 10px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted white;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+  color: #e9bc0a;
+}
+.sub-menu-2 {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-2 {
+  display: block;
+  position: absolute;
+  background: #dc1e2a;
+  margin-top: 10px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted white;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-2 ul li a:hover {
+  color: #e9bc0a;
+}
+.sub-menu-3 {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-3 {
+  display: block;
+  position: absolute;
+  background: #dc1e2a;
+  margin-top: 10px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-3 ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-3 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted white;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-3 ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-3 ul li a:hover {
+  color: #e9bc0a;
+}
+.sub-menu-4 {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-4 {
+  display: block;
+  position: absolute;
+  background: #dc1e2a;
+  margin-top: 10px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-4 ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-4 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted white;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-4 ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-4 ul li a:hover {
+  color: #e9bc0a;
+}
+.sub-menu-5 {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-5 {
+  display: block;
+  position: absolute;
+  background: #dc1e2a;
+  margin-top: 10px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-5 ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-5 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted white;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-5 ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-5 ul li a:hover {
+  color: #e9bc0a;
+}
+.sub-menu-6 {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-6 {
+  display: block;
+  position: absolute;
+  background: #dc1e2a;
+  margin-top: 10px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-6 ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-6 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted white;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-6 ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-6 ul li a:hover {
+  color: #e9bc0a;
+}
+.sub-menu-7 {
+  display: none;
+}
+.menu-bar ul li:hover .sub-menu-7 {
+  display: block;
+  position: absolute;
+  background: #dc1e2a;
+  margin-top: 10px;
+  margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-7 ul {
+  display: block;
+  margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-7 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted white;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-7 ul li:last-child {
+  border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-7 ul li a:hover {
+  color: #e9bc0a;
+}
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 30px 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 30px;
+}
+.item img {
+  object-fit: cover;
+  cursor: pointer;
+  transition: 0.2s ease;
+  height: 450px;
+  padding: 2px 10px;
+}
+.item img:hover {
+  transform: scale(1.04);
+}
+.item h4 {
+  padding: 5px;
+  text-align: center;
+}
+.item h5 {
+  font-size: 18px;
+  text-align: center;
+}
+.item button {
+  padding: 5px 30px;
+  border: none;
+  outline: none;
+  background-color: #dc1e2a;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  display: block;
+  margin: 0 auto;
+  transition: 0.2s all;
+}
+.item button:hover {
+  transform: scale(1.08);
+}
+@media screen and (max-width: 1000px) {
+  .items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 768px) {
+  .items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

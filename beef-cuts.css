@@ -11,11 +11,13 @@ body {
   text-align: center;
 }
 .logo {
-  padding-top: 10px;
+  padding-top: 25px;
+  padding-left: 20px;
+  height: 10vh;
 }
-.container {
+.search {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  padding-top: 30px;
+  padding-top: 40px;
   width: 100%;
   background: #dc1e2a;
   display: flex;
@@ -37,7 +39,8 @@ form input {
 }
 form button {
   font-size: 15px;
-  background: #e9bc0a;
+  font-weight: bold;
+  background: #faae16;
   padding: 10px 50px;
   border: none;
   outline: none;
@@ -46,6 +49,7 @@ form button {
   cursor: pointer;
 }
 .menu-bar ul {
+  padding-top: 20px;
   font-size: 16px;
   display: inline-flex;
   list-style: none;
@@ -58,11 +62,12 @@ form button {
   margin-left: 20px;
 }
 .menu-bar ul li a {
+  font-weight: bold;
   text-decoration: none;
   color: white;
 }
 .menu-bar ul li:hover {
-  background: #e9bc0a;
+  background: #faae16;
   border-radius: 2px;
 }
 .sub-menu-1 {
@@ -91,7 +96,7 @@ form button {
   border-bottom: none;
 }
 .menu-bar ul li:hover .sub-menu-1 ul li a:hover {
-  color: #e9bc0a;
+  color: #faae16;
 }
 .sub-menu-2 {
   display: none;
@@ -119,7 +124,7 @@ form button {
   border-bottom: none;
 }
 .menu-bar ul li:hover .sub-menu-2 ul li a:hover {
-  color: #e9bc0a;
+  color: #faae16;
 }
 .sub-menu-3 {
   display: none;
@@ -147,7 +152,7 @@ form button {
   border-bottom: none;
 }
 .menu-bar ul li:hover .sub-menu-3 ul li a:hover {
-  color: #e9bc0a;
+  color: #faae16;
 }
 .sub-menu-4 {
   display: none;
@@ -175,7 +180,7 @@ form button {
   border-bottom: none;
 }
 .menu-bar ul li:hover .sub-menu-4 ul li a:hover {
-  color: #e9bc0a;
+  color: #faae16;
 }
 .sub-menu-5 {
   display: none;
@@ -203,7 +208,7 @@ form button {
   border-bottom: none;
 }
 .menu-bar ul li:hover .sub-menu-5 ul li a:hover {
-  color: #e9bc0a;
+  color: #faae16;
 }
 .sub-menu-6 {
   display: none;
@@ -231,7 +236,7 @@ form button {
   border-bottom: none;
 }
 .menu-bar ul li:hover .sub-menu-6 ul li a:hover {
-  color: #e9bc0a;
+  color: #faae16;
 }
 .sub-menu-7 {
   display: none;
@@ -259,7 +264,7 @@ form button {
   border-bottom: none;
 }
 .menu-bar ul li:hover .sub-menu-7 ul li a:hover {
-  color: #e9bc0a;
+  color: #faae16;
 }
 .items {
   display: grid;
@@ -279,6 +284,7 @@ form button {
   transform: scale(1.04);
 }
 .item h4 {
+  font-weight: bold;
   padding: 5px;
   text-align: center;
 }
@@ -304,13 +310,23 @@ form button {
 .item button:hover {
   transform: scale(1.08);
 }
-@media screen and (max-width: 1000px) {
-  .items {
-    grid-template-columns: repeat(2, 1fr);
-  }
+
+.promotions {
+  height: 70vh;
+  padding-top: 30px;
+  width: 100%;
+  background: #dc1e2a;
+  align-items: center;
 }
-@media screen and (max-width: 768px) {
-  .items {
-    grid-template-columns: repeat(1, 1fr);
-  }
+.promotions h1 {
+  padding-top: 120px;
+  padding-left: 75px;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  align-items: center;
+}
+.promotions img {
+  height: 450px;
 }

@@ -282,6 +282,10 @@ form button {
   padding: 5px;
   text-align: center;
 }
+.item h5 {
+  font-size: 18px;
+  text-align: center;
+}
 .item button {
   padding: 5px 30px;
   border: none;

@@ -4,22 +4,45 @@ body{
 
 .top-container{
   padding: 2% 2% 0 2%;
+  background-color: #e11e2c;
+}
+
+.header{
+  background-color: #e11e2c;
+  padding: 0;
+}
+
+.menu-items{
+  padding: 0 2%;
+}
+
+.meat-categories{
+  color: #fff;
+  text-align: center;
+}
+
+.meat-categories:hover{
+  color: #fff;
+}
+
+.nav-item:hover{
+  background-color: #faae16;
+  border-radius: 2px;
 }
 
 .official-logo{
   margin-right: 5%;
 }
 
-.navbar-brand{
+.page-title{
   font-family: 'Varela Round', sans-serif;
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: bolder;
-  color: #e11e2c;
+  color: #fff;
+  text-align: center;
+  display: block;
 }
 
-.navbar{
-  background-color: #ffff;
-}
 
 button{
     font-family: 'Varela Round', sans-serif;

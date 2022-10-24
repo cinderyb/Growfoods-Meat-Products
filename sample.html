@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    </head>
+    <body onload="loadMeats()">
+        <div id="cardContainer"></div>
+    </body>
+    <script>
+        // instantiate JSON object
+        const meats = [
+            {
+                "id": 1,
+                "name": "Pork Jowls",
+                "imgSrc": "images/pork/pork jowl.png",
+                "price": "P510/kg"
+            },
+            {
+                "id": 2,
+                "name": "Pork Belly",
+                "imgSrc": "images/pork/pork belly.png",
+                "price": "P510/kg"
+            },
+            {
+                "id": 3,
+                "name": "Beef Belly",
+                "imgSrc": "images/beef/Beefsamg.jpg",
+                "price": "P510/kg"
+            },
+            {
+                "id": 4,
+                "name": "Pork Chop",
+                "imgSrc": "images/pork/pork chop.png",
+                "price": "P510/kg"
+            }
+        ];
+
+        // function called on page onLoad event
+        function loadMeats() {
+
+            // iterate over each meat object
+            meats.forEach(function(obj) { 
+                loadCard(obj.id, obj.name, obj.imgSrc, obj.price);
+            });
+        }
+
+        // function to load card details into page with meat attributes
+        function loadCard(id, name, imgSrc, price) {
+            var template = '\
+            <div id="' + id + '" class="card" style="width: 18rem;"> \
+                <img src="' + imgSrc + '" class="card-img-top" alt="..."> \
+                <div class="card-body"> \
+                <h5 class="card-title">' + name + '</h5> \
+                <p class="card-text">' + price + '</p> \
+                <a href="#" class="btn btn-primary">Add to Cart</a> \
+                </div> \
+          </div>';
+
+          // get cardContainer and insert each generated card from template
+          var cardContainer = document.getElementById('cardContainer');
+          cardContainer.innerHTML += template;
+        }
+    </script>
+</html>

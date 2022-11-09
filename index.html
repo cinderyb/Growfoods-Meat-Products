@@ -14,9 +14,10 @@
 
 </head>
 
-<body>
+<body onload="loadImages()">
 
   <!-- navbar -->
+  <section>
   <div class="top-container">
     <nav class="navbar">
       <div class="container-fluid">
@@ -26,8 +27,28 @@
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-danger" type="submit">Search</button>
         </form>
+
+        <ul class="cart nav nav-tabs">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+
+              <span> <i class="icon fa-regular fa-cart-shopping"></i> </span>
+
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+
       </div>
     </nav>
+
+    
     <!-- Menu bar -->
     
   <nav class="navbar navbar-expand-lg">
@@ -122,137 +143,14 @@
       </div>
     </div>
   </nav>
-
-
   </div>
 
+</section>
   
 
   <!-- cards -->
   <div class="pork-items-section">
-    <div class="row">
-
-      <div class="pork-items col-lg-3 col-md-4">
-        <div class="card h-100">
-          <div class="card-header">
-            Pork Belly
-          </div>
-          <img src="images/pork/pork belly.png" alt="Pork belly">
-          <div class="card-body">
-            <p>Variants:</p>
-            <p>Bone-in, skin-on | Boneless, skinless | Bone-in, skinless</p>
-            <h2>P295/kg</h2>
-            <div class="d-grid gap-2">
-              <button type="button" class="btn btn-lg btn-danger">Add to cart</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="pork-items col-lg-3 col-md-4">
-        <div class="card h-100">
-          <div class="card-header">
-            Pork Jowls
-          </div>
-          <img src="images/pork/pork jowl.png" alt="Pork jowl">
-          <div class="card-body">
-            <p>Cheek part of pork</p>
-            <p>Has skin, fat, and a little meat. Great for smoking and deep frying!</p>
-            <h2>P210/kg</h2>
-            <div class="d-grid gap-2">
-              <button type="button" class="btn btn-lg btn-danger">Add to cart</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="pork-items col-lg-3 col-md-4">
-        <div class="card h-100">
-          <div class="card-header">
-            Pork Chop
-          </div>
-          <img src="images/pork/pork chop.png" alt="Pork chop">
-          <div class="card-body">
-            <p>Variants:</p>
-            <p>Bone-in, skin-on | Boneless, skinless | Bone-in, skinless</p>
-            <h2>P225/kg</h2>
-            <div class="d-grid gap-2">
-              <button type="button" class="btn btn-lg btn-danger">Add to cart</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="pork-items col-lg-3 col-md-4">
-        <div class="card h-100">
-          <div class="card-header">
-            Pork Ham Leg
-          </div>
-          <img src="images/pork/ham leg.png" alt="Ham leg">
-          <div class="card-body">
-            <p>The meaty hamstring of the pork. Also known as "pigue"</p>
-            <p>Bone-in, skin-on</p>
-            <h2>P200/kg</h2>
-            <div class="d-grid gap-2">
-              <button type="button" class="btn btn-lg btn-danger">Add to cart</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="pork-items col-lg-3 col-md-4">
-        <div class="card h-100">
-          <div class="card-header">
-            Pork Samgyupsal
-          </div>
-          <img src="images/pork/pork samg.png" alt="Pork samgyupsal">
-          <div class="card-body">
-            <p>Bacon sliced pork belly</p>
-            <p>Perfect for your Samgyupsal date nights!</p>
-            <h2>P200/500g</h2>
-            <div class="d-grid gap-2">
-              <button type="button" class="btn btn-lg btn-danger">Add to cart</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="pork-items col-lg-3 col-md-4">
-        <div class="card h-100">
-          <div class="card-header">
-            Pata
-          </div>
-          <img src="images/pork/pata.png" alt="Pata">
-          <div class="card-body">
-            <p>Variants:</p>
-            <p>Pata hock, pata front</p>
-            <p>For crispy pata, and other dishes</p>
-            <h2>P185/kg</h2>
-            <div class="d-grid gap-2">
-              <button type="button" class="btn btn-lg btn-danger">Add to cart</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="pork-items col-lg-3 col-md-4">
-        <div class="card h-100">
-          <div class="card-header">
-            Spare Ribs
-          </div>
-          <img src="images/pork/spare ribs.png" alt="Pork Spare Ribs">
-          <div class="card-body">
-            <p>Whole rack of pork ribs:</p>
-            <p>Skinless, boneless</p>
-            <p>Perfect for weekend barbecue.</p>
-            <h2>P265/kg</h2>
-            <div class="d-grid gap-2">
-              <button type="button" class="btn btn-lg btn-danger">Add to cart</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
+    <div class="row" id="cardContainer">
 
     </div>
   </div>
@@ -299,8 +197,9 @@
 
     </section>
 
+<!-- SCRIPTS -->
 
-
+<script src="index.js" charset="utf-8"></script>
 
 </body>
 

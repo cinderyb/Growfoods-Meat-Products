@@ -5,138 +5,152 @@
   <meta charset="utf-8">
   <title>Pork cuts - Growfoods Meat Products</title>
   <link rel="icon" href="images/10 Growfoods Badge logo.ico">
-  <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </head>
 
-<body>
+<body onload="loadImages()">
 
   <!-- navbar -->
+  <section>
   <div class="top-container">
     <nav class="navbar">
       <div class="container-fluid">
-        <img src="images/Official Logo.png" alt="Logo" width="10%" class="official-logo d-inline-block align-text-top">
-        <a class="navbar-brand" href="">Pork Cuts</a>
+        <img src="images/redlogo.png" alt="Logo" width="10%" class="official-logo d-inline-block align-text-top">
+        <h1 class="page-title">Pork Cuts</h1>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-danger" type="submit">Search</button>
         </form>
+
+        <ul class="cart nav nav-tabs">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">
+
+              <span> <i class="icon fa-regular fa-cart-shopping"></i> </span>
+
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+
       </div>
     </nav>
+
+    
+    <!-- Menu bar -->
+    
+  <nav class="navbar navbar-expand-lg">
+    <div class="header container-fluid">
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="menu-items collapse navbar-collapse row" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown col-lg-2">
+            <a class="meat-categories nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Premium Meats
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Lamb Rack</a></li>
+              <li><a class="dropdown-item" href="#">Lamb Chops</a></li>
+              <li><a class="dropdown-item" href="#">NZ Strip Steak</a></li>
+              <li><a class="dropdown-item" href="#">Rib Eye Steak</a></li>
+              <li><a class="dropdown-item" href="#">Beef Brisket</a></li>
+              <li><a class="dropdown-item" href="#">Australian Porterhouse</a></li>
+              <li><a class="dropdown-item" href="#">Australian T Bone</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown col-lg-2">
+            <a class="meat-categories nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Beef Cuts
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Ground Beef</a></li>
+              <li><a class="dropdown-item" href="#">Beef Samgyupsal</a></li>
+              <li><a class="dropdown-item" href="#">Tapa Slice</a></li>
+              <li><a class="dropdown-item" href="#">Caldereta Cut</a></li>
+              <li><a class="dropdown-item" href="#">Beef Short Plate</a></li>
+              <li><a class="dropdown-item" href="#">Beef Bulalo Cut</a></li>
+              <li><a class="dropdown-item" href="#">Beef Tripe</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown col-lg-2">
+            <a class="meat-categories nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Pork Cuts
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Ground Pork</a></li>
+              <li><a class="dropdown-item" href="#">Pork Samgyupsal</a></li>
+              <li><a class="dropdown-item" href="#">Adobo Cut</a></li>
+              <li><a class="dropdown-item" href="#">Pork Chop</a></li>
+              <li><a class="dropdown-item" href="#">Pork Spare Ribs</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown col-lg-2">
+            <a class="meat-categories nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Chicken Cuts
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Fresh Whole Chicken</a></li>
+              <li><a class="dropdown-item" href="#">Fresh Chicken Breast</a></li>
+              <li><a class="dropdown-item" href="#">Fresh Chicken Wings</a></li>
+              <li><a class="dropdown-item" href="#">Leg Quarter</a></li>
+              <li><a class="dropdown-item" href="#">Drumsticks</a></li>
+              <li><a class="dropdown-item" href="#">Drumettes</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown col-lg-2">
+            <a class="meat-categories nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Growfoods Meat Products
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Longanisa</a></li>
+              <li><a class="dropdown-item" href="#">Shanghai Lumpia</a></li>
+              <li><a class="dropdown-item" href="#">Pork Sisig</a></li>
+              <li><a class="dropdown-item" href="#">Hams</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown col-lg-2">
+            <a class="meat-categories nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Other Brands
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">CDO Products</a></li>
+              <li><a class="dropdown-item" href="#">Frabelle Products</a></li>
+            </ul>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
   </div>
+
+</section>
+  
 
   <!-- cards -->
   <div class="pork-items-section">
-    <div class="row">
-
-      <div class="pork-items col-lg-3 col-md-4">
-        <div class="card h-100">
-          <div class="card-header">
-            Pork Belly
-          </div>
-          <img src="images/pork/pork belly.png" alt="Pork belly">
-          <div class="card-body">
-            <p>Variants:</p>
-            <p>Bone-in, skin-on | Boneless, skinless | Bone-in, skinless</p>
-            <h2>P395/kg</h2>
-            <div class="d-grid gap-2">
-              <button type="button" class="btn btn-lg btn-danger">Add to cart</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="pork-items col-lg-3 col-md-4">
-        <div class="card h-100">
-          <div class="card-header">
-            Pork Jowls
-          </div>
-          <img src="images/pork/pork jowl.png" alt="Pork jowl">
-          <div class="card-body">
-            <p>Cheek part of pork</p>
-            <p>Has skin, fat, and a little meat. Great for smoking and deep frying!</p>
-            <h2>P510/kg</h2>
-            <div class="d-grid gap-2">
-              <button type="button" class="btn btn-lg btn-danger">Add to cart</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="pork-items col-lg-3 col-md-4">
-        <div class="card h-100">
-          <div class="card-header">
-            Pork Chop
-          </div>
-          <img src="images/pork/pork chop.png" alt="Pork chop">
-          <div class="card-body">
-            <p>Variants:</p>
-            <p>Bone-in, skin-on | Boneless, skinless | Bone-in, skinless</p>
-            <h2>P255/kg</h2>
-            <div class="d-grid gap-2">
-              <button type="button" class="btn btn-lg btn-danger">Add to cart</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="pork-items col-lg-3 col-md-4">
-        <div class="card h-100">
-          <div class="card-header">
-            Pork Ham Leg
-          </div>
-          <img src="images/pork/ham leg.png" alt="Ham leg">
-          <div class="card-body">
-            <p>The meaty hamstring of the pork. Also known as "pigue"</p>
-            <p>Bone-in, skin-on</p>
-            <h2>P250/kg</h2>
-            <div class="d-grid gap-2">
-              <button type="button" class="btn btn-lg btn-danger">Add to cart</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="pork-items col-lg-3 col-md-4">
-        <div class="card h-100">
-          <div class="card-header">
-            Pork Samgyupsal
-          </div>
-          <img src="images/pork/pork samg.png" alt="Pork samgyupsal">
-          <div class="card-body">
-            <p>Bacon sliced pork belly</p>
-            <p>Perfect for your Samgyupsal date nights!</p>
-            <h2>P200/500g</h2>
-            <div class="d-grid gap-2">
-              <button type="button" class="btn btn-lg btn-danger">Add to cart</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="pork-items col-lg-3 col-md-4">
-        <div class="card h-100">
-          <div class="card-header">
-            Pata
-          </div>
-          <img src="images/pork/pata.png" alt="Ham leg">
-          <div class="card-body">
-            <p>Variants:</p>
-            <p>Pata hock, pata front</p>
-            <p>For crispy pata, and other dishes</p>
-            <h2>P185/kg</h2>
-            <div class="d-grid gap-2">
-              <button type="button" class="btn btn-lg btn-danger">Add to cart</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
+    <div class="row" id="cardContainer">
 
     </div>
   </div>
@@ -183,8 +197,9 @@
 
     </section>
 
+<!-- SCRIPTS -->
 
-
+<script src="index.js" charset="utf-8"></script>
 
 </body>
 

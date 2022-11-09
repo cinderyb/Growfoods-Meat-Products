@@ -4,22 +4,59 @@ body{
 
 .top-container{
   padding: 2% 2% 0 2%;
+  background-color: #e11e2c;
+}
+
+.header{
+  background-color: #e11e2c;
+  padding: 0;
+}
+
+.menu-items{
+  padding: 0 2%;
+}
+
+.meat-categories{
+  color: #fff;
+  text-align: center;
+}
+
+.meat-categories:hover{
+  color: #fff;
+}
+
+.nav-item:hover{
+  background-color: #faae16;
+  color:#fff;
+  border-radius: 2px;
+}
+
+.dropdown-menu{
+  background-color: #e11e2c;
+}
+
+.dropdown-item{
+  color: #fff;
+}
+
+.dropdown-item:hover{
+  color:#faae16;
+  background-color: #e11e2c;
 }
 
 .official-logo{
   margin-right: 5%;
 }
 
-.navbar-brand{
+.page-title{
   font-family: 'Varela Round', sans-serif;
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: bolder;
-  color: #e11e2c;
+  color: #fff;
+  text-align: center;
+  display: block;
 }
 
-.navbar{
-  background-color: #ffff;
-}
 
 button{
     font-family: 'Varela Round', sans-serif;
@@ -34,7 +71,6 @@ button{
   font-family: 'Varela Round', sans-serif;
   font-size: large;
   font-weight: bolder;
-  background-color: #faae16;
   margin:auto;
 }
 
@@ -45,9 +81,11 @@ button{
   text-align: center;
 }
 
-.card-header{
-  text-align: center;
-  font-size: 2rem;
+
+
+
+.navbar-toggler{
+  color:#fff;
 }
 
 #growfoodsFeatures{
@@ -72,4 +110,14 @@ button{
   padding: 3% 3% 0;
   text-align: center;
   opacity: 50%;
+}
+
+
+.card-header{
+  text-align: center;
+  font-size: 2rem;
+}
+
+.icon{
+  color: #fff;
 }

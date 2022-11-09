@@ -1,0 +1,44 @@
+
+   {
+      "id": 1,
+      "name": "Pork Jowls",
+      "img-src": "images/pork/pork jowl.png",
+      "price": "P210/kg"
+   },
+   {
+      "id": 2,
+      "name": "Pork Belly",
+      "img-src": "images/pork/pork belly.png",
+      "price": "P295/kg"
+   },
+   {
+      "id": 3,
+      "name": "Ham Leg",
+      "img-src": "images/pork/ham leg.png",
+      "price": "P220/kg"
+   },
+   {
+      "id": 4,
+      "name": "Pork Chop",
+      "img-src": "images/pork/pork chop.png",
+      "price": "P225/kg"
+   }
+   {
+    "id": 5,
+    "name": "Pork samg",
+    "img-src": "images/pork/pork samg.png",
+    "price": "P200/500g"
+ }
+ {
+    "id": 6,
+    "name": "Pata",
+    "img-src": "images/pork/pata.png",
+    "price": "P180/kg"
+ }
+ {
+    "id": 7,
+    "name": "Spare Ribs",
+    "img-src": "images/pork/spare ribs.png",
+    "price": "P265/kg"
+ }
+]
